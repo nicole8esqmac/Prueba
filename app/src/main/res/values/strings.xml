@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Proyecto_Final_IO</string>
+
+    <!-- Menu -->
+    <string name="text">Teoria de Colas</string>
+    <string name="text2">Programación Lineal</string>
+    <string name="text3">Modelo de Transporte</string>
+
+    <!-- ACTIVITY_MAIN -->
+    <string name="btn">Calculo</string>
+    <string name="btn2">Calculo</string>
+
+    <!-- ACTIVITY_MAIN -->
+    <string name="Edit1">Tasa de LLegada (lambda)</string>
+    <string name="Edit2">Tasa de Miu (Mu)</string>
+    <string name="Edit3">Número de servidores</string>
+    <string name="Edit4">Sistema tenga N elementos (Pn)</string>
+
+
+    <!-- ERRORES -->
+    <string name="error_campo_obligatorio">Campo obligatorio</string>
+    <string name="error_campo_obligatorio1">Campo obligatorio</string>
+
+    <!-- DESCRIPCIOM -->
+    <string name="descripcion">Se conoce como plano cartesiano, coordenadas cartesianas o sistema cartesiano a dos rectas numéricas perpendiculares, una horizontal y otra vertical, que se cortan en un punto llamado origen o punto cero.
+
+La finalidad del plano cartesiano es describir la posición o ubicación de un punto en el plano, la cual está representada por el sistema de coordenadas
+</string>
+    <string name="descripcion2">Se conoce como subplano a un área derivada de la interacción con plano.
+
+La finalidad del subplano es delimitar un área en el plano y obtener de esta datos de valor para un análisis.
+</string>
+    <string name="descripcion3">La recta o la línea recta es una línea que se extiende en una misma dirección; por lo tanto, tiene una sola dimensión y contiene un número infinito de puntos. Dicha recta también se puede describir como una sucesión continua de puntos extendidos en una sola dirección.
+</string>
+    <string name="descripcion4">En geometría, un vértice es el punto donde se encuentran dos o más elementos unidimensionales (curvas, vectores, rectas, semirrectas o segmentos).
+</string>
+
+
+    <!-- PROGRAMACION LINEAL -->
+    <string name="texto1">Para el método gáfico solo es valido 2 VARIABLES</string>
+    <string name="texto2">Para esta aplicación la restricción sera 2 </string>
+    <string name="texto3">Ingrese valor de la función</string>
+    <string name="texto4">Ingrese valor de la función</string>
+
+    <!-- MAYOR O MENOR IGUAL  -->
+
+
+</resources>

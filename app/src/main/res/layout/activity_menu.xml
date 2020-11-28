@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".Menu">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_uno"
+        android:onClick="TeoriaCola"
+        android:text="Teoria de Colas"
+        android:textColor="@drawable/txt_btn_uno"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="ProgramcionLineal"
+            android:background="@drawable/btn_uno"
+            android:textColor="@drawable/txt_btn_uno"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Programación Lineal" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/btn_uno"
+        android:onClick="ModeloTransporte"
+        android:text="Modelo de Transporte"
+        android:textColor="@drawable/txt_btn_uno"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

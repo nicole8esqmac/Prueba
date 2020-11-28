@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:padding="16dp">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+   <com.codesgood.views.JustifiedTextView
+        android:id="@+id/justificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:textColor="#313335"
+        android:text="@string/descripcion"/>
+
+
+        <ImageView
+            android:id="@+id/circleIMG"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/plano" />
+</RelativeLayout>
+
+
+
+
+</ScrollView>

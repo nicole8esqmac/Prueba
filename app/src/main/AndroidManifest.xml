@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Grafica_PL"></activity>
+        <activity android:name=".Progra_Lineal3" />
+        <activity android:name=".Progra_Lineal2" />
+        <activity android:name=".Progra_Lineal" />
+        <activity android:name=".Teoria_Cola3" />
+        <activity android:name=".Teoria_Colas_MMS" />
+        <activity android:name=".Teoria_Colas_MM1" />
+        <activity android:name=".Teoria_Cola2" />
+        <activity android:name=".Teoria_Cola" />
+        <activity android:name=".Menu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
